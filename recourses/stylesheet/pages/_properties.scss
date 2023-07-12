@@ -1,0 +1,17 @@
+.our-Properties{
+  display: block;
+  width: 100%;
+  padding: 70px 0;
+  .title{
+    color: $primary-color;
+    font-weight: bold;
+  }
+  .card{
+    .card-title{
+      color: $primary-color;
+    }
+    .card-text{
+      color: $secondary-color;
+    }
+  }
+}

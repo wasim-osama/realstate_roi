@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*var*/
+$primary-color : #0E2954;
+$secondary-color : #1F6E8C;
+$tertiary-color : #84A7A1;
+
+/*custom global css*/
+.btn-custom{
+  background-color: $primary-color;
+  color: $secondary-color;
+  transition: 0.5s all ease;
+  padding: 10px 20px;
+  font-weight: bold;
+  &:hover{
+    background-color: $secondary-color;
+    color: $tertiary-color;
+  }
+}
