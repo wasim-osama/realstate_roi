@@ -2,6 +2,20 @@
   display: block;
   width: 100%;
   padding: 40px 0;
+  .navigation-bar{
+    background-color: $primary-color;
+    padding: 10px 0;
+    .navbar-brand{
+      font-size: 25px;
+    }
+    .nav-link{
+      color: $secondary-color;
+      transition: 0.5s all ease;
+      &:hover{
+        color: $tertiary-color;
+      }
+    }
+  }
   .title{
     color: $primary-color;
     padding: 15px 0;
